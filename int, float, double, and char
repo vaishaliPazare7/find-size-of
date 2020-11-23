@@ -1,0 +1,29 @@
+// c++ program to find the size 
+// float and double data types 
+#include<iostream.h>
+using namespace std;
+ 
+ int main ()
+ {
+    int integerType;
+    char charType;
+    float floatType;
+    double doubleType;
+    
+    //calculate and print
+    //the size of integerType
+    cout<<"Size of int is: "<<sizeof(integerType)<<"bytes"<<"\n";
+    
+    //calculate and print
+    //the size of charType
+    cout<<"Size of char is: "<<sizeof(charType)<<"byte"<<"\n";
+    
+    //calculate and print
+    //the size of floatType
+    cout<<"Size of float is: "<<sizeof(floatType)<<"bytes"<<"\n";
+    
+    //calculate and print
+    //the size of doubleType
+    cout<<"Size of double is: "<<sizeof(doubleType)<<"bytes"<<"\n";
+    
+    return 0;
